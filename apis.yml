@@ -1,20 +1,50 @@
 aid: ephemeral-solutions
 name: Ephemeral Solutions
-description: Ephemeral Solutions is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Ephemeral Solutions is the company entity behind Ephemeral Tattoo, the
+  direct-to-consumer brand at ephemeraltattoos.com (ephemeral.tattoo) known for
+  "made-to-fade" semi-permanent tattoos applied with a vegan ink formulated to
+  fade naturally over roughly one to three years, removing the need for laser
+  removal. The company operates two sides of a marketplace: a consumer service
+  that connects people with approved partner tattoo artists, and a business line
+  that sells its proprietary fading ink to professional tattoo artists and
+  studios. It runs an editorial blog, a lookbook of tattoo examples, a How It
+  Works explainer, and an FAQ. It was surfaced to the API Evangelist network as a
+  Techstars portfolio lead. As of this enrichment pass the company publishes no
+  public API, developer portal, documentation, OpenAPI, or agent surface, so this
+  profile carries only verified identity and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/ephemeral-solutions/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/xsqru7hy/production/a2300fed1241c96bc9dfd4f3ac7d07c62b1f9f31-1200x630.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Tattoo
+- Semi-Permanent Tattoos
+- Consumer
+- Beauty
+- Cosmetics
+- E-Commerce
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +52,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ephemeral-solutions-domain-security.yml
 - type: Website
-  url: https://ephemeraltattoos.com/
+  url: https://ephemeral.tattoo/
+- type: PrivacyPolicy
+  url: https://ephemeral.tattoo/privacy-policy/
+- type: Support
+  url: https://ephemeral.tattoo/faq/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
