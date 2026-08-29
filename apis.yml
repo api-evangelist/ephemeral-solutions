@@ -14,6 +14,17 @@ description: >-
   public API, developer portal, documentation, OpenAPI, or agent surface, so this
   profile carries only verified identity and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/ephemeral-solutions/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
