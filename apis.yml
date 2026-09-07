@@ -76,5 +76,3 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
-x-parent: ephemeral
-x-relationship: product
